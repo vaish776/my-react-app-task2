@@ -1,12 +1,85 @@
-# React + Vite
+# my-react-app-task2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that generates random alphanumeric strings using React hooks. This project is part of a front-end internship task focusing on React fundamentals and state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Generates a random string on initial load.
+- Generates a new random string on button click.
+- Built with React functional components and hooks (`useState`, `useCallback`, `useEffect`).
+- Simple and clean UI design.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React (Functional Components & Hooks)
+- JavaScript (ES6+)
+- Vite (Development and build tool)
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/vaish776/my-react-app-task2.git
+
+
+2. Change to the project directory:
+
+cd my-react-app-task2
+
+
+3. Install dependencies:
+
+npm install
+
+4.Start the development server:
+
+npm run dev
+
+
+5. Open your browser at [http://localhost:5173](http://localhost:5173) to view the app.
+
+---
+
+## Usage
+
+- On page load, a random string is generated automatically.
+- Click the **Generate New String** button to get another random string instantly.
+
+---
+
+## Project Structure
+
+src/
+├── components/
+│ └── RandomStringGenerator.jsx
+├── App.jsx
+├── main.jsx
+
+
+
+---
+
+## Future Enhancements
+
+- Add user input for custom string length.
+- Add options for special characters.
+- Enable copy-to-clipboard functionality.
+- Improve styling and responsiveness.
+
+---
+
+## Author
+
+Vaishnavi — [GitHub Profile](https://github.com/vaish776)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
